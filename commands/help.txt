@@ -1,0 +1,12 @@
+const ms = require('ms');
+
+exports.run = async (client, message, args) => {
+
+ const embed = new Discord.MessageEmbed()
+   .setColor("RANDOM")
+   .setAuthor("Giveaway")
+   .addField('⚙️ Administration' , '`\`start`\`, `\`end`\`, `\`reroll`\`')
+   message.channel.send(embed)
+ }
+  }
+};
